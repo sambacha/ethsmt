@@ -1,11 +1,10 @@
 #!/bin/bash
 
-set -eo pipefail
+set -e
 
 sudo apt-get update  -qq
-sudo apt-get upgrade -y -qq
-sudo apt update -qq
-sudo apt-get upgrade -qq --skip-keypress --checkall
+
+
 #---------------------------------#
 # Install System Build Req.
 #---------------------------------#
